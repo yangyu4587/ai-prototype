@@ -1,0 +1,30 @@
+{
+  "project": {
+    "name": "科左后旗县域医共体数智化能力提升建设方案",
+    "company": "远盟元康（南京）科技有限公司",
+    "location": "内蒙古自治区通辽市科左后旗",
+    "population": 28,
+    "institutions": 33,
+    "budget": 1200,
+    "duration_months": 18
+  },
+  "institutions": [
+    {"level": "县级", "type": "县医院", "count": 1, "beds": 350, "staff": 420},
+    {"level": "乡级", "type": "乡镇卫生院", "count": 15, "beds": 280, "staff": 180},
+    {"level": "村级", "type": "村卫生室", "count": 17, "beds": 0, "staff": 45}
+  ],
+  "systems": {
+    "his": {"coverage_county": 100, "coverage_township": 80, "coverage_village": 30},
+    "lis": {"coverage_county": 100, "coverage_township": 60, "coverage_village": 10},
+    "pacs": {"coverage_county": 100, "coverage_township": 40, "coverage_village": 0},
+    "emr": {"coverage_county": 100, "coverage_township": 50, "coverage_village": 10},
+    "hrp": {"coverage_county": 60, "coverage_township": 10, "coverage_village": 0}
+  },
+  "kpi_targets": {
+    "county_visit_rate": {"current": 85, "target": 92},
+    "avg_waiting_time_minutes": {"current": 30, "target": 15},
+    "prescription_qualification_rate": {"current": 90, "target": 98},
+    "operation_cost_reduction": {"current": 0, "target": 30},
+    "ai_diagnosis_accuracy": {"current": 0, "target": 95}
+  }
+}

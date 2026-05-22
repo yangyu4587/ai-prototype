@@ -1,0 +1,108 @@
+project:
+  name: "科左后旗县域医共体数智化能力提升建设方案"
+  company: "远盟元康（南京）科技有限公司"
+  version: "v1.0"
+  date: "2026-05-18"
+
+theme:
+  primary: "#2563EB"
+  secondary: "#10B981"
+  accent: "#F59E0B"
+  danger: "#EF4444"
+  dark: "#1E293B"
+  gray: "#64748B"
+  light_gray: "#E2E8F0"
+
+metrics:
+  - title: "覆盖医疗机构"
+    value: 33
+    unit: "家"
+    icon: "🏥"
+  - title: "服务人口"
+    value: 28
+    unit: "万人"
+    icon: "👥"
+  - title: "建设周期"
+    value: 18
+    unit: "个月"
+    icon: "📅"
+  - title: "预期降本"
+    value: 30
+    unit: "%"
+    icon: "📉"
+
+systems:
+  his:
+    name: "医院信息系统 (HIS)"
+    modules:
+      - 门诊挂号收费
+      - 住院管理
+      - 药品管理
+      - 医保结算
+  lis:
+    name: "检验信息系统 (LIS)"
+    modules:
+      - 标本管理
+      - 检验申请
+      - 结果审核
+      - 报告发布
+  pacs:
+    name: "影像归档系统 (PACS/RIS)"
+    modules:
+      - 影像存储
+      - 诊断报告
+      - 远程阅片
+      - AI 辅助诊断
+  emr:
+    name: "电子病历系统 (EMR)"
+    modules:
+      - 病历书写
+      - 病历质控
+      - 临床路径
+      - 数据上报
+
+hrp_modules:
+  - name: "人力资源管理"
+    desc: "统一人员档案、排班、绩效考核"
+  - name: "财务管理"
+    desc: "预算、成本核算、财务共享"
+  - name: "物资管理"
+    desc: "耗材、药品、设备全生命周期"
+  - name: "资产管理"
+    desc: "固定资产台账、折旧、盘点"
+
+phases:
+  - name: "一期：基础夯实"
+    period: "第1-6个月"
+    tasks:
+      - 医共体数据中心建设
+      - 统一身份认证平台
+      - HIS/LIS 系统升级
+  - name: "二期：能力提升"
+    period: "第7-12个月"
+    tasks:
+      - PACS/RIS 影像云部署
+      - EMR 电子病历互联互通
+      - HRP 资源管理系统上线
+  - name: "三期：智慧赋能"
+    period: "第13-18个月"
+    tasks:
+      - AI 辅助诊疗接入
+      - 大数据运营分析平台
+      - 区域健康管理门户
+
+investment:
+  total: 1200
+  breakdown:
+    - item: "软件平台"
+      amount: 480
+      percent: 40
+    - item: "硬件设备"
+      amount: 300
+      percent: 25
+    - item: "实施服务"
+      amount: 240
+      percent: 20
+    - item: "培训运维"
+      amount: 180
+      percent: 15
